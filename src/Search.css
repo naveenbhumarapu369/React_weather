@@ -1,0 +1,44 @@
+.search{
+    text-align: center;
+}
+.card{
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 20px !important;
+    
+}
+.alert{
+    margin: auto;
+    height:40px;
+    width:14rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+        -45deg,
+        #465357,
+        #939fae,
+        #d95ebe,
+        #ff01c0
+    );
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+}
+@keyframes gradientBG {
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
